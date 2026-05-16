@@ -1,0 +1,847 @@
+[
+  {
+    "name": "acquire-codebase-knowledge",
+    "path": "skills/acquire-codebase-knowledge",
+    "description": "Use this skill when the user explicitly asks to map, document, or onboard into an existing codebase.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "codebase-analysis",
+      "architecture",
+      "documentation",
+      "onboarding"
+    ]
+  },
+  {
+    "name": "ai-ready",
+    "path": "skills/ai-ready",
+    "description": "Make any repo AI-ready - analyzes your codebase and generates AGENTS.md, copilot-instructions.md, CI workflows, issue templates, and more.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "ai-tooling",
+      "repository-setup",
+      "automation",
+      "developer-experience"
+    ]
+  },
+  {
+    "name": "aix-map",
+    "path": "skills/aix-map",
+    "description": "Token-saving repo context workflow for OpenCode.",
+    "entrypoints": [
+      "SKILL.md",
+      "README.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "context-mapping",
+      "codebase-analysis",
+      "planning",
+      "token-efficiency"
+    ]
+  },
+  {
+    "name": "aix-skill-pack",
+    "path": "skills/aix-skill-pack",
+    "description": "Meta skill.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "meta",
+      "governance",
+      "standards",
+      "skill-management"
+    ]
+  },
+  {
+    "name": "architecture-blueprint-generator",
+    "path": "skills/architecture-blueprint-generator",
+    "description": "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "architecture",
+      "documentation",
+      "system-design",
+      "codebase-analysis"
+    ]
+  },
+  {
+    "name": "architecture-designer",
+    "path": "skills/architecture-designer",
+    "description": "Use when designing new high-level system architecture, reviewing existing designs, or making architectural decisions.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "architecture",
+      "system-design",
+      "adr",
+      "scalability"
+    ]
+  },
+  {
+    "name": "boost-prompt",
+    "path": "skills/boost-prompt",
+    "description": "Interactive prompt refinement workflow: interrogates scope, deliverables, constraints; copies final markdown to clipboard; never writes code.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "prompt-engineering",
+      "workflow",
+      "productivity"
+    ]
+  },
+  {
+    "name": "brag-sheet",
+    "path": "skills/brag-sheet",
+    "description": "Skill for brag sheet workflows.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "reporting",
+      "career",
+      "documentation"
+    ]
+  },
+  {
+    "name": "brainstorming",
+    "path": "skills/brainstorming",
+    "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "ideation",
+      "planning",
+      "requirements"
+    ]
+  },
+  {
+    "name": "caveman",
+    "path": "skills/caveman",
+    "description": "Ultra-concise communication mode that reduces token usage while preserving technical accuracy.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "communication",
+      "token-efficiency",
+      "response-style"
+    ]
+  },
+  {
+    "name": "code-documenter",
+    "path": "skills/code-documenter",
+    "description": "Generates, formats, and validates technical documentation - including docstrings, OpenAPI/Swagger specs, JSDoc annotations, doc portals, and user guides.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "documentation",
+      "api-spec",
+      "docstrings"
+    ]
+  },
+  {
+    "name": "context-map",
+    "path": "skills/context-map",
+    "description": "Generate a map of all files relevant to a task before making changes.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "context-mapping",
+      "codebase-analysis",
+      "planning"
+    ]
+  },
+  {
+    "name": "debugging-wizard",
+    "path": "skills/debugging-wizard",
+    "description": "Parses error messages, traces execution flow through stack traces, correlates log entries to identify failure points, and applies systematic hypothesis-driven.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "observability"
+    ]
+  },
+  {
+    "name": "diagnose",
+    "path": "skills/diagnose",
+    "description": "Disciplined diagnosis loop for hard bugs and performance regressions.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "debugging",
+      "performance",
+      "root-cause-analysis"
+    ]
+  },
+  {
+    "name": "executing-plans",
+    "path": "skills/executing-plans",
+    "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "execution",
+      "planning",
+      "project-management"
+    ]
+  },
+  {
+    "name": "flutter-expert",
+    "path": "skills/flutter-expert",
+    "description": "Use when building cross-platform applications with Flutter 3+ and Dart.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "flutter",
+      "mobile",
+      "cross-platform",
+      "dart"
+    ]
+  },
+  {
+    "name": "golang-pro",
+    "path": "skills/golang-pro",
+    "description": "Implements concurrent Go patterns using goroutines and channels, designs and builds microservices with gRPC or REST, optimizes Go application performance with.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "golang",
+      "backend",
+      "concurrency",
+      "microservices"
+    ]
+  },
+  {
+    "name": "grill-with-docs",
+    "path": "skills/grill-with-docs",
+    "description": "Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "review",
+      "planning",
+      "documentation",
+      "decision-making"
+    ]
+  },
+  {
+    "name": "handoff",
+    "path": "skills/handoff",
+    "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "handoff",
+      "documentation",
+      "continuity"
+    ]
+  },
+  {
+    "name": "javascript-pro",
+    "path": "skills/javascript-pro",
+    "description": "Writes, debugs, and refactors JavaScript code using modern ES2023+ features, async/await patterns, ESM module systems, and Node.js APIs.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "javascript",
+      "frontend",
+      "backend",
+      "nodejs"
+    ]
+  },
+  {
+    "name": "nestjs-expert",
+    "path": "skills/nestjs-expert",
+    "description": "Creates and configures NestJS modules, controllers, services, DTOs, guards, and interceptors for enterprise-grade TypeScript backend applications.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "nestjs",
+      "backend",
+      "typescript",
+      "api"
+    ]
+  },
+  {
+    "name": "nextjs-developer",
+    "path": "skills/nextjs-developer",
+    "description": "Use when building Next.js 14+ applications with App Router, server components, or server actions.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "nextjs",
+      "react",
+      "frontend",
+      "fullstack"
+    ]
+  },
+  {
+    "name": "php-pro",
+    "path": "skills/php-pro",
+    "description": "Use when building PHP applications with modern PHP 8.3+ features, Laravel, or Symfony frameworks.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "php",
+      "backend",
+      "laravel",
+      "symfony"
+    ]
+  },
+  {
+    "name": "planning-with-files",
+    "path": "skills/planning-with-files",
+    "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "planning",
+      "state-management",
+      "context-preservation",
+      "workflow"
+    ]
+  },
+  {
+    "name": "playwright-expert",
+    "path": "skills/playwright-expert",
+    "description": "Use when writing E2E tests with Playwright, setting up test infrastructure, or debugging flaky browser tests.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "testing",
+      "e2e",
+      "playwright",
+      "qa"
+    ]
+  },
+  {
+    "name": "postgres-pro",
+    "path": "skills/postgres-pro",
+    "description": "Use when optimizing PostgreSQL queries, configuring replication, or implementing advanced database features.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "postgresql",
+      "database",
+      "performance",
+      "operations"
+    ]
+  },
+  {
+    "name": "prd",
+    "path": "skills/prd",
+    "description": "Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "product",
+      "requirements",
+      "documentation",
+      "planning"
+    ]
+  },
+  {
+    "name": "premium-frontend-ui",
+    "path": "skills/premium-frontend-ui",
+    "description": "A comprehensive guide for GitHub Copilot to craft immersive, high-performance web experiences with advanced motion, typography, and architectural craftsmanship.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "frontend",
+      "ui-design",
+      "ux",
+      "animation"
+    ]
+  },
+  {
+    "name": "prompt-master",
+    "path": "skills/prompt-master",
+    "description": "Generates optimized prompts for AI tools.",
+    "entrypoints": [
+      "SKILL.md",
+      "README.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "prompt-engineering",
+      "ai-productivity",
+      "writing"
+    ]
+  },
+  {
+    "name": "prompt-optimizer",
+    "path": "skills/prompt-optimizer",
+    "description": "Turn any rough prompt, half-formed idea, or task description into a finished, ready-to-send prompt optimized for any LLM model inside a chat interface - NOT.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "prompt-engineering",
+      "llm",
+      "optimization"
+    ]
+  },
+  {
+    "name": "python-pro",
+    "path": "skills/python-pro",
+    "description": "Use when building Python 3.11+ applications requiring type safety, async programming, or robust error handling.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "python",
+      "backend",
+      "automation",
+      "typing"
+    ]
+  },
+  {
+    "name": "react-expert",
+    "path": "skills/react-expert",
+    "description": "Use when building React 18+ applications in .jsx or .tsx files, Next.js App Router projects, or create-react-app setups.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "react",
+      "frontend",
+      "typescript",
+      "component-architecture"
+    ]
+  },
+  {
+    "name": "react-native-expert",
+    "path": "skills/react-native-expert",
+    "description": "Builds, optimizes, and debugs cross-platform mobile applications with React Native and Expo.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "react-native",
+      "mobile",
+      "cross-platform",
+      "expo"
+    ]
+  },
+  {
+    "name": "rust-engineer",
+    "path": "skills/rust-engineer",
+    "description": "Writes, reviews, and debugs idiomatic Rust code with memory safety and zero-cost abstractions.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "rust",
+      "systems",
+      "performance",
+      "memory-safety"
+    ]
+  },
+  {
+    "name": "secure-code-guardian",
+    "path": "skills/secure-code-guardian",
+    "description": "Use when implementing authentication/authorization, securing user input, or preventing OWASP Top 10 vulnerabilities - including custom security implementations.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "security",
+      "owasp",
+      "auth",
+      "secure-coding"
+    ]
+  },
+  {
+    "name": "security-review",
+    "path": "skills/security-review",
+    "description": "AI-powered codebase security scanner that reasons about code like a security researcher - tracing data flows, understanding component interactions, and.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "security",
+      "audit",
+      "code-review",
+      "threat-analysis"
+    ]
+  },
+  {
+    "name": "self-improvement",
+    "path": "skills/self-improvement",
+    "description": "Captures learnings, errors, and corrections to enable continuous improvement.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "retrospective",
+      "learning",
+      "quality-improvement"
+    ]
+  },
+  {
+    "name": "skill-creator",
+    "path": "skills/skill-creator",
+    "description": "Create new skills, modify and improve existing skills, and measure skill performance.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "skill-management",
+      "authoring",
+      "evaluation",
+      "optimization"
+    ]
+  },
+  {
+    "name": "sql-optimization",
+    "path": "skills/sql-optimization",
+    "description": "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "sql",
+      "database",
+      "performance",
+      "query-tuning"
+    ]
+  },
+  {
+    "name": "sql-pro",
+    "path": "skills/sql-pro",
+    "description": "Optimizes SQL queries, designs database schemas, and troubleshoots performance issues.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "sql",
+      "database",
+      "schema-design",
+      "performance"
+    ]
+  },
+  {
+    "name": "systematic-debugging",
+    "path": "skills/systematic-debugging",
+    "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "debugging",
+      "methodology",
+      "testing"
+    ]
+  },
+  {
+    "name": "tdd",
+    "path": "skills/tdd",
+    "description": "Test-driven development with red-green-refactor loop.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "testing",
+      "tdd",
+      "development-process"
+    ]
+  },
+  {
+    "name": "test-driven-development",
+    "path": "skills/test-driven-development",
+    "description": "Use when implementing any feature or bugfix, before writing implementation code.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "testing",
+      "tdd",
+      "development-process"
+    ]
+  },
+  {
+    "name": "to-issues",
+    "path": "skills/to-issues",
+    "description": "Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "project-management",
+      "issue-tracking",
+      "planning"
+    ]
+  },
+  {
+    "name": "to-prd",
+    "path": "skills/to-prd",
+    "description": "Turn the current conversation context into a PRD and publish it to the project issue tracker.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "product",
+      "requirements",
+      "issue-tracking"
+    ]
+  },
+  {
+    "name": "typescript-pro",
+    "path": "skills/typescript-pro",
+    "description": "Implements advanced TypeScript type systems, creates custom type guards, utility types, and branded types, and configures tRPC for end-to-end type safety.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "typescript",
+      "type-safety",
+      "backend",
+      "frontend"
+    ]
+  },
+  {
+    "name": "vue-expert",
+    "path": "skills/vue-expert",
+    "description": "Builds Vue 3 components with Composition API patterns, configures Nuxt 3 SSR/SSG projects, sets up Pinia stores, scaffolds Quasar/Capacitor mobile apps.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "vue",
+      "frontend",
+      "nuxt",
+      "state-management"
+    ]
+  },
+  {
+    "name": "vue-expert-js",
+    "path": "skills/vue-expert-js",
+    "description": "Creates Vue 3 components, builds vanilla JS composables, configures Vite projects, and sets up routing and state management using JavaScript only - no.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "vue",
+      "frontend",
+      "javascript",
+      "vite"
+    ]
+  },
+  {
+    "name": "web-coder",
+    "path": "skills/web-coder",
+    "description": "Expert 10x engineer with comprehensive knowledge of web development, internet protocols, and web standards.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "web-development",
+      "fullstack",
+      "standards"
+    ]
+  },
+  {
+    "name": "web-design-reviewer",
+    "path": "skills/web-design-reviewer",
+    "description": "This skill enables visual inspection of websites running locally or remotely to identify and fix design issues.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "ui-review",
+      "ux",
+      "accessibility",
+      "visual-testing"
+    ]
+  },
+  {
+    "name": "websocket-engineer",
+    "path": "skills/websocket-engineer",
+    "description": "Use when building real-time communication systems with WebSockets or Socket.IO.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "websockets",
+      "real-time",
+      "backend",
+      "networking"
+    ]
+  },
+  {
+    "name": "wordpress-pro",
+    "path": "skills/wordpress-pro",
+    "description": "Develops custom WordPress themes and plugins, creates and registers Gutenberg blocks and block patterns, configures WooCommerce stores, implements WordPress.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "wordpress",
+      "php",
+      "cms",
+      "plugins"
+    ]
+  },
+  {
+    "name": "writing-plans",
+    "path": "skills/writing-plans",
+    "description": "Use when you have a spec or requirements for a multi-step task, before touching code.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "planning",
+      "requirements",
+      "execution"
+    ]
+  },
+  {
+    "name": "zoom-out",
+    "path": "skills/zoom-out",
+    "description": "Tell the agent to zoom out and give broader context or a higher-level perspective.",
+    "entrypoints": [
+      "SKILL.md"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "tags": [
+      "strategy",
+      "architecture",
+      "context"
+    ]
+  }
+]

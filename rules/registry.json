@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "copyMode": "copy_if_missing",
+  "rules": [
+    "README.md",
+    "_rule-template.md",
+    "00-skill-routing.md",
+    "01-artifact-boundary.md",
+    "02-planning-with-files.md",
+    "03-file-naming.md",
+    "04-write-boundaries.md",
+    "05-communication-caveman.md"
+  ]
+}
